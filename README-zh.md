@@ -1,7 +1,6 @@
 # Guided-Filter-Using-CUDA
 
-- [中文](README-zh.md)
-- [English](README.md)
+[中文](README-zh.md) | [English](README.md)
 
 这是导向滤波/引导滤波的一种GPU实现，经测试，在i9, RTX4090上运行，包括malloc和memcpy操作，**1080P单帧处理可以达到9.8ms**，可以直接或经过Resize缩放后加入到实时视觉任务中
 
