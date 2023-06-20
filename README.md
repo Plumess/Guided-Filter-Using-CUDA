@@ -6,7 +6,7 @@ This is a GPU implementation of the Guided Filter, using CUDA C/C++. It can **_p
 
 ## Description
 
-In the test scenario, the input is the transmission map of an RGB image, which is in the form of a grayscale image with values ranging from 0 to 255, saved as a png format for visualization. In the main function, it is processed as a float ranging from 0 to 1. The guide map is the original RGB image, processed as an unsigned char ranging from 0 to 255 in the main function. The output is a float ranging from 0 to 1.
+In the de-fogging test scenario, the input is the transmission map of an RGB image, which is in the form of a grayscale image with values ranging from 0 to 255, saved as a png format for visualization. In the main function, it is processed as a float ranging from 0 to 1. The guide map is the original RGB image, processed as an unsigned char ranging from 0 to 255 in the main function. The output is a float ranging from 0 to 1.
 
 Note that the RGB image is processed into a grayscale image before the filter is applied, according to the BGR channel order. If necessary, you can modify the "to_float_point" function in "[guidedFilter.cu](./guidedFilter.cu)".
 
