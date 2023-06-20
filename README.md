@@ -1,6 +1,7 @@
 # Guided-Filter-Using-CUDA
 
-- [中文](README-zh.md) - [English](README.md)
+- [中文](README-zh.md) 
+- [English](README.md)
 
 This is a GPU implementation of the Guided Filter, using CUDA C/C++. It can **_process a 1080P image in 9.8ms_** on Intel Core i9, Nvidia RTX4090, including malloc and memcpy operations. It can be applied directly or after resizing to real-time visual tasks.
 
