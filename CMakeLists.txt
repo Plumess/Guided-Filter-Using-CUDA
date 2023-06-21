@@ -6,7 +6,7 @@ set(CMAKE_CUDA_STANDARD 17)
 
 find_package(CUDA REQUIRED)
 
-include_directories(${CUDA_INCLUDE_DIRS} DehazeOCECuda)
+include_directories(${CUDA_INCLUDE_DIRS})
 
 file(GLOB CU_SOURCES ./*.cu)
 file(GLOB HEADERS ./*.h ./*.cuh)
